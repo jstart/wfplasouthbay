@@ -242,7 +242,7 @@ a:focus-visible {
   gap: 1.5rem;
 }
 
-.site-nav a {
+.site-nav a:not(.btn) {
   font-family: var(--font-headline);
   font-weight: 700;
   font-size: 0.95rem;
@@ -252,21 +252,21 @@ a:focus-visible {
   color: var(--color-purple);
 }
 
-.site-nav a:hover,
-.site-nav a:focus-visible {
+.site-nav a:not(.btn):hover,
+.site-nav a:not(.btn):focus-visible {
   color: var(--color-red);
 }
 
-.site-nav .btn--purple,
-.mobile-nav .btn--purple {
-  color: var(--color-white);
+.site-header .btn.btn--primary.site-header__cta {
+  color: var(--color-purple);
+  background: var(--color-gold);
 }
 
-.site-nav .btn--purple:hover,
-.site-nav .btn--purple:focus-visible,
-.mobile-nav .btn--purple:hover,
-.mobile-nav .btn--purple:focus-visible {
-  color: var(--color-white);
+.site-header .btn.btn--primary.site-header__cta:hover,
+.site-header .btn.btn--primary.site-header__cta:focus-visible {
+  color: var(--color-purple);
+  background: var(--color-white);
+  border-color: var(--color-purple);
 }
 
 .nav-toggle {
@@ -315,7 +315,7 @@ a:focus-visible {
   display: flex;
 }
 
-.mobile-nav a {
+.mobile-nav a:not(.btn) {
   font-family: var(--font-headline);
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -323,6 +323,19 @@ a:focus-visible {
   text-decoration: none;
   color: var(--color-purple);
   padding: 0.5rem 0;
+}
+
+.mobile-nav .btn.btn--primary.site-header__cta {
+  color: var(--color-purple);
+  background: var(--color-gold);
+  margin-top: 0.5rem;
+}
+
+.mobile-nav .btn.btn--primary.site-header__cta:hover,
+.mobile-nav .btn.btn--primary.site-header__cta:focus-visible {
+  color: var(--color-purple);
+  background: var(--color-white);
+  border-color: var(--color-purple);
 }
 
 @media (min-width: 768px) {
