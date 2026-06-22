@@ -16,6 +16,7 @@ const WFP_CONFIG = {
   national: "https://workingfamilies.org/",
   caWfp: "https://www.caworkingfamilies.org/",
   convention: "https://www.eventcreate.com/e/ca-wfp-statewide-convention",
+  mobilize: "https://www.mobilize.us/ca-wfp/",
   instagram: "https://www.instagram.com/wfpsouthbay/",
   privacy: "https://www.caworkingfamilies.org/privacy-policy",
   fppc: "https://www.fppc.ca.gov/",

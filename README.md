@@ -8,7 +8,7 @@ Single-page landing site for the Working Families Party LA South Bay chapter.
 
 | What to change | File |
 |----------------|------|
-| Outbound links (signup, donate, Discord, etc.) | `js/config.js` |
+| Outbound links (signup, donate, Discord, events, etc.) | `js/config.js` |
 | Page copy and sections | `index.html` |
 | Colors and layout | `css/styles.css` |
 | Form behavior | `js/main.js` |

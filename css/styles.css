@@ -588,6 +588,18 @@ a:focus-visible {
   margin-inline: auto;
 }
 
+.instagram-section .inline-link {
+  color: var(--color-gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.instagram-section .inline-link:hover,
+.instagram-section .inline-link:focus-visible {
+  color: #fff;
+}
+
 .instagram-link {
   display: inline-flex;
   align-items: center;
