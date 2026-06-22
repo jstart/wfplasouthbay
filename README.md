@@ -20,7 +20,7 @@ No build step required — edit files and push to `main` to deploy.
 The contact form uses [Formspree](https://formspree.io/) with a placeholder form ID.
 
 1. Create a free account at [formspree.io](https://formspree.io/).
-2. Create a new form and set the notification email to `southbay@caworkingfamilies.org` (or your preferred inbox).
+2. Create a new form and set the notification email to `info@wfplasouthbay.com` (or your preferred inbox).
 3. Copy your form ID (the part after `/f/` in the form URL).
 4. Update `js/config.js`:
    ```js

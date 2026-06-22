@@ -7,7 +7,7 @@ const WFP_CONFIG = {
   signup:
     "https://actionnetwork.org/forms/become-a-member-of-cawfp-2",
   membership:
-    "https://actionnetwork.org/forms/become-a-member-of-cawfp-2",
+    "https://actionnetwork.org/forms/become-a-member-of-cawfp",
   donate:
     "https://secure.actblue.com/donate/california-working-families-party-1?refcode=wfplasouthbay",
   discord: "https://discord.gg/ZM7jRFQSAu",
@@ -19,7 +19,7 @@ const WFP_CONFIG = {
   instagram: "https://www.instagram.com/wfpsouthbay/",
   privacy: "https://www.caworkingfamilies.org/privacy-policy",
   fppc: "https://www.fppc.ca.gov/",
-  contactEmail: "southbay@caworkingfamilies.org",
+  contactEmail: "info@wfplasouthbay.com",
   formspreeId: "YOUR_FORM_ID",
   siteUrl: "https://www.wfplasouthbay.com/",
 };
