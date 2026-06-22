@@ -257,6 +257,18 @@ a:focus-visible {
   color: var(--color-red);
 }
 
+.site-nav .btn--purple,
+.mobile-nav .btn--purple {
+  color: var(--color-white);
+}
+
+.site-nav .btn--purple:hover,
+.site-nav .btn--purple:focus-visible,
+.mobile-nav .btn--purple:hover,
+.mobile-nav .btn--purple:focus-visible {
+  color: var(--color-white);
+}
+
 .nav-toggle {
   display: flex;
   flex-direction: column;
