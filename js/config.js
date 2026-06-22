@@ -18,6 +18,8 @@ const WFP_CONFIG = {
   convention: "https://www.eventcreate.com/e/ca-wfp-statewide-convention",
   mobilize: "https://www.mobilize.us/ca-wfp/",
   instagram: "https://www.instagram.com/wfpsouthbay/",
+  facebook: "https://www.facebook.com/profile.php?id=61590294530824",
+  bluesky: "https://bsky.app/profile/wfplasouthbay.bsky.social",
   privacy: "https://www.caworkingfamilies.org/privacy-policy",
   fppc: "https://www.fppc.ca.gov/",
   contactEmail: "info@wfplasouthbay.com",
